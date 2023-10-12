@@ -1,3 +1,4 @@
-# 2
-num = int(input())
-n = print(bin(num)[2:], oct(num)[2:], hex(num)[2:]) if num > 0 else print("Неверный ввод")
+a=int(input())
+print('p=', '%.2f' % (a*4))
+print('s=', '%.2f' % (a**2))
+print('d=', '%.2f' % (a*(2**0.5)))
