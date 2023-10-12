@@ -1,8 +1,3 @@
-i = input()
-n = int(input())
-k='abcdefghijklmnopqrstuvwxyz'
-kol = ''
-if i in k:
-    offset = ord(i) - ord('a') + n
-    kol = chr(ord('a') + (offset % len(k)))
-print(kol)
+# 5
+num = input()
+print('yes' if num.count('1') == num.count('0') else 'no')

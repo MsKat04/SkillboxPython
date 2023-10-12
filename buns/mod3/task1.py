@@ -1,2 +1,12 @@
-a,b=int(input())
-print(a%b)
+abc = input().split(" ")
+print(sorted(abc)[1])
+
+
+
+
+
+
+
+
+
+

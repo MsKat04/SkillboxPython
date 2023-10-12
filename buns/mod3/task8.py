@@ -1,8 +1,4 @@
-a = input()
-i=input()
-k=0
-for n in a:
-    if n == i:
-        k+=1
-    else: break
-print(k)
+# 8
+my_str = "+7 (812) 134-12-324"
+c = ''.join([x for x in my_str if x not in (" ", "(", ")", "-")])
+print(c)
